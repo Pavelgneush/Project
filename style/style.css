@@ -54,8 +54,6 @@ background-size: cover;
 .photo{
 display: block;
 background-color:  #ffffff;
-width: 469px;
-height: 214px;
 float: right;
 margin-top: -200px;
 }
@@ -81,8 +79,6 @@ display: block;
 text-align: left;    
 }
 .video{
-width: 430px;
-height: 245px;
 background-color: #445161;
 margin-left: 750px; 
 margin-top: -210px;
@@ -197,30 +193,42 @@ color: #445161;
 display: block;
 width: 580px; 
 margin: 20px;
+float: left;
+padding-bottom: 50px;
+}
+.screenshots2{
+display: block;
+width: 580px; 
+margin: 20px;
+float: left;
+}
+.screenshots3{
+display: block;
+width: 580px; 
+margin: 20px;
+float: left;
+}
+.screenshots4{
+display: block;
+width: 580px; 
+margin: 20px;
+float: left;
 }
 .screen1{
 display: block;
-width: 200px;
-height: 150px;
 background-color: #445161;
 float: left;
 }
 .screen2{
 display: block;
-width: 200px;
-height: 150px;
 background-color: #445161;
 }
 .screen3{
 display: block;
-width: 200px;
-height: 150px;
 background-color: #445161;
 }
 .screen4{
 display: block;
-width: 200px;
-height: 150px;
 background-color: #445161;
 }
 .description{
@@ -352,7 +360,8 @@ padding: 10px;
 float: left;
 margin-top: 225px;
 margin-left: 130px;
-        }
+display: inline-table;        
+}
 .standart-title{
 display: block;
 width: 100%;
@@ -417,6 +426,7 @@ padding: 10px;
 float: left;
 margin-left: 50px;
 margin-top: 130px;
+display: inline-table;
 }
 .lux{
 width: 290px;
@@ -426,6 +436,7 @@ padding: 10px;
 float: left;
 margin-left: 50px;
 margin-top: 35px;
+display: inline-table;
 }
 .footer{
 width: 108%;
@@ -444,7 +455,7 @@ width: 100%;
 text-align: center;
 font-family: Arial;
 font-size: 30px;
-line-height: 30px;
+line-height: 30px;    
 font-weight: 400;
 color: white;
 padding: 30px;
@@ -452,6 +463,7 @@ padding: 30px;
 .field{
 padding-left: 250px;
 padding-bottom: 50px;
+outline: none;
 }
 .field1{
 width: 600px;
@@ -463,6 +475,7 @@ line-height: 24px;
 font-weight: 400;
 color: #445162;
 padding-left: 10px;
+outline: none;
 }
 .field2{
 width: 600px;
@@ -475,6 +488,7 @@ line-height: 24px;
 font-weight: 400;
 color: #445162;
 padding-left: 10px;
+outline: none;
 }
 .field3{
 width: 600px;
@@ -488,6 +502,7 @@ font-weight: 400;
 color: #445162;
 padding-left: 10px;
 padding-top: 10px;
+outline: none;
 }
 .send-button{
  display: block;
@@ -505,7 +520,7 @@ font-weight: 700;
 text-transform: uppercase;
 margin-top: 20px;
 margin-left: 230px;
-border: none;
+outline: none;
 }
 .send-button:hover {
 background-color:darkcyan;
@@ -537,7 +552,7 @@ top: -4px;
 left: -36px;
 background-image: url(../img/skype.png);
 background-size: cover;
-}
+}    
 .icq-text{
 font-family: Arial;
 font-size: 16px;
@@ -558,7 +573,7 @@ background-image: url(../img/324.png);
 background-size: cover;
 }
 .email-text{
-  font-family: Arial;
+font-family: Arial;
 font-size: 16px;
 line-height: 24px;
 font-weight: 400;
